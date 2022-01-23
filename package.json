@@ -1,5 +1,5 @@
 {
-  "name": "paytmnode",
+  "name": "lpaytmaps",
   "version": "1.0.0",
   "description": ">> Accept request at \r >> CallBack to http://localhost:3000/viewBooking?status=${_results.STATUS}&ORDERID=${_results.ORDERID}&date=${_results.TXNDATE}&bank=${_results.BANKNAME}",
   "main": "index.js",
@@ -24,5 +24,13 @@
     "cors": "^2.8.5",
     "express": "^4.17.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arunps94/Paytmaps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arunps94/Paytmaps/issues"
+  },
+  "homepage": "https://github.com/Arunps94/Paytmaps#readme"
 }
